@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 900px;
+  margin: 100px 280px 20px 280px;
+}
+
+.left {
+  float: left;
+  padding: 2px;
+  margin-right: 270px;
+  margin-left: 5px;
+}
+
+.right {
+  overflow: auto;
+  padding: 2px 0;
+}
+
+.title {
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+  padding: 8px;
+}
+
+.sub-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  padding: 2.5px;
+}
+
+.description {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  padding: 2.5px;
+}
+
+#container {
+  margin-top: 60px;
+  display: grid;
+  grid-template-areas:
+    "A B C"
+    "D E F";
+  grid-row-gap: 1rem;
+  grid-column-gap: 3.5rem;
+}
+
+.team {
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+}
+
+.person-two,
+.person-five {
+  margin-top: 100px;
+}
+
+.person-one {
+  grid-area: A;
+}
+
+.person-two {
+  grid-area: B;
+}
+
+.person-three {
+  grid-area: C;
+}
+
+.person-four {
+  grid-area: D;
+}
+
+.person-five {
+  grid-area: E;
+}
+
+.person-six {
+  grid-area: F;
+}
+
+.pic-name img {
+  border-radius: 10px;
+  height: 40vh;
+}
+
+.name {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.designation {
+  font-family: "PT Serif", serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  writing-mode: vertical-lr;
+  padding-left: 5px;
+}
+
+footer {
+  text-align: center;
+  margin: 65px 0 0 0;
+}
+
+footer > a {
+  color: #a9a9a9;
+  text-decoration: none;
+  padding: 8px;
+}
