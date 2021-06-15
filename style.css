@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins&display=swap");
 
+:root {
+  --background-color: #fafafa;
+  --primary-font-color: #000000;
+  --secondary-font-color: #a9a9a9;
+}
+
 *,
 *:before,
 *:after {
@@ -17,7 +23,7 @@ body {
     "footer footer footer";
   max-width: 900px;
   margin: 35px auto;
-  background: #fafafa;
+  background: var(--background-color);
 }
 
 header {
@@ -37,6 +43,7 @@ header {
 }
 
 .title {
+  color: var(--primary-font-color);
   font-family: "PT Serif", serif;
   font-weight: bold;
   font-size: 36px;
@@ -46,6 +53,7 @@ header {
 }
 
 .sub-title {
+  color: var(--primary-font-color);
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -56,6 +64,7 @@ header {
 }
 
 .description {
+  color: var(--primary-font-color);
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -135,12 +144,12 @@ footer {
   grid-area: footer;
   text-align: center;
 
-  color: #a9a9a9;
+  color: var(--secondary-font-color);
   margin: 50px 0 0 0;
 }
 
 .profile-link {
-  color: #a9a9a9;
+  color: var(--secondary-font-color);
   text-decoration: none;
 }
 
